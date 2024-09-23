@@ -17,14 +17,13 @@ body {
     border-radius: 50%;
 }
 
-.about {
+.about, .projects {
     padding: 20px;
     background-color: #fff;
+    margin: 0 10px;
 }
 
 .projects {
-    padding: 20px;
-    background-color: #fff;
     margin: 20px 0;
 }
 
@@ -39,4 +38,29 @@ body {
     padding: 10px;
     background-color: #333;
     color: white;
+}
+
+@media (max-width: 768px) {
+    #profile-image {
+        width: 100px;
+    }
+
+    .about, .projects {
+        padding: 15px;
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .project {
+        padding: 8px;
+    }
+
+    #footer {
+        font-size: 0.9em;
+    }
 }
