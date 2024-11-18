@@ -3,35 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leila Rodríguez - Portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Mi Portafolio</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <!-- Encabezado -->
     <header id="header">
-        <h1>Leila Rodriguez</h1>
-        <p>Descripción breve sobre ti.</p>
-        <img src="foto.jpeg" alt="Leila" id="profile-image">
+        <div class="container">
+            <h1>Leila Rodríguez</h1>
+            <p>Desarrolladora Web | Apasionada por la Tecnología y el Diseño</p>
+            <img src="foto.jpeg" alt="Foto de Leila" id="profile-image">
+        </div>
     </header>
 
-    <section class="about">
-        <h2>Sobre Mí</h2>
-        <p>Soy una estudiante de Desarrollo Web.</p>
+    <!-- Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección: Sobre Mí -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <p>Soy estudiante de Desarrollo Web, con pasión por crear experiencias digitales atractivas y funcionales. Estoy finalizando mi formación en Jóvenes a Programar, donde adquirí habilidades técnicas y de trabajo en equipo. Mi objetivo es desarrollar soluciones tecnológicas que marquen una diferencia.</p>
+        </div>
     </section>
 
-    <section class="projects">
-        <h2>Proyectos</h2>
-        <div class="project">
-            <h3>Portafolio personal</h3>
-            <p>Esta pagina web es mi portafolio personal, en el cual estoy trabajando a lo largo de mi cursada en Jovenes a Programar.</p>
-        </div>
-        <div class="project">
-            <h3>Proyecto E-Commerce</h3>
-            <p>Es el proyecto final del curso de Jovenes a Programar en el que estoy trabajando en equipo junto a 4 de mis compañeras.</p>
+    <!-- Sección: Habilidades -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>Diseño Web</h3>
+                    <p>HTML5, CSS, Figma</p>
+                </div>
+                <div class="skill">
+                    <h3>Desarrollo Frontend</h3>
+                    <p>JavaScript, React, Bootstrap</p>
+                </div>
+                <div class="skill">
+                    <h3>Desarrollo Backend</h3>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill">
+                    <h3>Gestión de Proyectos</h3>
+                    <p>Git, GitHub, Comunicación Efectiva</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer id="footer">
-        <p>Contacto: <a href="leilarodriguez3103@gmail.com">leilarodriguez3103@gmail.com</a></p>
+    <!-- Sección: Proyectos -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="portfolio.png.jpeg" alt="Portafolio Personal">
+                    <h3>Portafolio Personal</h3>
+                    <p>Un sitio web interactivo diseñado para mostrar mis habilidades y proyectos. Optimizado para dispositivos móviles y con animaciones modernas.</p>
+                </div>
+                <div class="project">
+                    <img src="ecommerce.png" alt="Proyecto E-Commerce">
+                    <h3>Proyecto E-Commerce</h3>
+                    <p>Plataforma de comercio electrónico desarrollada en equipo, con funcionalidades como carrito de compras, gestión de usuarios y sistema de pago.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Experiencia -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2>Experiencia</h2>
+            <ul>
+                <li><strong>Proyecto Final - Jóvenes a Programar</strong> (2024)<br>
+                    Desarrollo de una tienda en línea usando metodologías ágiles y herramientas como Git y Figma.</li>
+                <li><strong>Freelance</strong> (2023 - Presente)<br>
+                    Creación de sitios web personalizados para pequeños negocios, enfocados en diseño responsive y SEO.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Te interesa colaborar? Escríbeme:</p>
+            <ul>
+                <li><a href="mailto:leilarodriguez3103@gmail.com">leilarodriguez3103@gmail.com</a></li>
+                <li><a href="https://linkedin.com/in/leilarodriguez" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/leilarodriguez-3103" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
